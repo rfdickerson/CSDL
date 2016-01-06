@@ -1,6 +1,7 @@
 module CSDL [system] {
        header "/usr/include/SDL2/SDL.h"
        header "/usr/include/SDL2/SDL_video.h"
+       header "/usr/include/SDL2/SDL_render.h"
        link "SDL2"
        export *
 }
